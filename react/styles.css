@@ -1,0 +1,60 @@
+/* Desktop Rules - LM */
+@media (min-width: 1026px) {
+  .container {
+    position: sticky;
+    top: 5rem;
+  }
+
+  .navList {
+    margin: 0;
+    padding: 0;
+  }
+
+  .navItem {
+    margin-top: 0.5rem;
+    list-style: none;
+  }
+
+  .navLink {
+    display: block;
+    color: inherit;
+    text-decoration: none;
+    padding: 0.25rem 0.25rem 0.25rem 2rem;
+  }
+
+  .navItem:hover {
+    background: var(--ebs-red);
+    color: white;
+    font-weight: bold;
+  }
+}
+
+/* Mobile Rules - LM */
+@media (max-width: 1025px) {
+  .navList {
+    display: flex;
+    gap: 1rem;
+    overflow-x: auto;
+    overflow-y: hidden;
+    padding: 0.5rem;
+  }
+
+  .navLink {
+    white-space: nowrap;
+    padding: 0.5rem 1rem;
+    background-color: var(--ebs-light-grey);
+    border-radius: 0.25rem;
+  }
+}
+
+.shopAllLink {}
+
+.navItem {
+  list-style: none;
+}
+
+.navLink {
+  display: block;
+  color: inherit;
+  text-decoration: none;
+}

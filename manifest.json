@@ -1,0 +1,20 @@
+{
+  "vendor": "eriksbikeshop",
+  "name": "guide-nav-v2",
+  "version": "1.0.0",
+  "title": "guide-nav-v2",
+  "description": "guide-nav-v2 component",
+  "builders": {
+    "store": "0.x",
+    "react": "3.x"
+  },
+  "dependencies": {
+    "vtex.css-handles": "0.x",
+    "vtex.render-runtime": "8.x"
+  },
+  "registries": [
+    "smartcheckout"
+  ],
+  "policies": [],
+  "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
+}

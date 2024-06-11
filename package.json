@@ -1,0 +1,18 @@
+{
+  "version": "0.0.0",
+  "name": "guide-nav-v2",
+  "private": true,
+  "license": "UNLICENSED",
+  "scripts": {
+    "format": "prettier --write \"**/*.{ts,tsx,js,jsx,json}\"",
+    "test": "cd ./react && yarn test"
+  },
+  "devDependencies": {
+    "@vtex/danger": "^0.2.7",
+    "@vtex/intl-equalizer": "^2.5.0",
+    "@vtex/prettier-config": "^0.3.5",
+    "husky": "^4.3.0",
+    "prettier": "^2.2.0",
+    "typescript": "^3.9.6"
+  }
+}
